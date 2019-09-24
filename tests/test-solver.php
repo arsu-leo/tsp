@@ -40,7 +40,7 @@ assert(count($cities) == count($outputCities), 'Ammount of cities matches output
 for($i = 0; $i < count($cities); $i++)
 {
   $city = $cities[$i]['city'];
-  assert(in_array($city, $outputCities), "Output validation, city {$city} not in output");
+  assert(in_array($city, $outputCities), "City {$city} is in output");
 }
 
 echo PHP_EOL . PHP_EOL;
