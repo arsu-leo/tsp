@@ -35,7 +35,7 @@ $timediff   = $endtime - $starttime;
 echo $output . PHP_EOL . PHP_EOL;
 $outputCities = explode(chr(10), $output);
 
-assert(count($cities) != count($outputCities), 'Ammount of cities matches output splitted cities');
+assert(count($cities) == count($outputCities), 'Ammount of cities matches output splitted cities');
 
 for($i = 0; $i < count($cities); $i++)
 {
