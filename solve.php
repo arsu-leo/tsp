@@ -9,7 +9,11 @@ require_once($srcPath . 'solvers' . DIRECTORY_SEPARATOR . 'branch-cut-aprox' . D
 // get a list of cities with positions
 // Pre: first city is always Beijing
 $cities         = Util::readCitiesFromPath();
+// For smaller dataset testing, uncomment this line
+//$cities = array_slice($cities, 0, 10);
+
 $distanceGraph  = Util::mapCitiesDistance($cities);
+
 
 // Run solver
 $solver     = new BranchCutAproxTravelerSolverV2($distanceGraph);

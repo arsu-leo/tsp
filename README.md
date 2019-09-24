@@ -18,7 +18,7 @@ Factorial complexity! So taking a look to different solutions proposed for this 
 
 The video[2] was very helpful and the implementations[3] [4] I found were good enough to code a solution with some modifications to make it way more readable from my perspective and also to understand how the minimization was done. Still this problem had some differences and I struggled to find how to reflect that into the given theorical solutions until I found some resource about this special case [5].
 
-So, after some tweaks on the input data and some modifications from the algoritm I found [5], I had then a working exact solution called "branch-bound" that was not a DFS but it was still taking quite amount of time for n = 14. Actually, on a worst case, it would do a complete DFS. Now if I waited long enough I was getting out of memory errors.
+So, after some tweaks on the input data and some modifications from the algoritm I found [5], I had then a working exact solution called "branch-bound" that was not a DFS but it was still taking quite amount of time for n = 14. Actually, on a worst case, it would do a complete DFS. Now if I waited long enough I was getting out of memory (OOM) errors.
 
 I was able to increase the PHP memory up to **5GB** without having issues with the computer performance itself.
 
