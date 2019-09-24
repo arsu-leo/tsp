@@ -63,18 +63,17 @@ Best results lowering the memory limit:
 ---
 ## References:
 1: https://en.m.wikipedia.org/wiki/Travelling_salesman_problem
+
 2: https://www.youtube.com/watch?v=XaXsJJh-Q5Y
+
 3: https://cs.indstate.edu/cpothineni/alg.pdf
+
 4: https://ideone.com/0TBgxr
+
 5: https://cs.stackexchange.com/questions/43549/what-tsp-variant-doesnt-return-to-start-point
 
-
-* [1]: https://en.m.wikipedia.org/wiki/Travelling_salesman_problem
-
-* [2]: https://www.youtube.com/watch?v=XaXsJJh-Q5Y
-
-* [3]: https://cs.indstate.edu/cpothineni/alg.pdf
-
-* [4]: https://ideone.com/0TBgxr
-
-* [5]: https://cs.stackexchange.com/questions/43549/what-tsp-variant-doesnt-return-to-start-point
+[1]: https://en.m.wikipedia.org/wiki/Travelling_salesman_problem
+[2]: https://www.youtube.com/watch?v=XaXsJJh-Q5Y
+[3]: https://cs.indstate.edu/cpothineni/alg.pdf
+[4]: https://ideone.com/0TBgxr
+[5]: https://cs.stackexchange.com/questions/43549/what-tsp-variant-doesnt-return-to-start-point
